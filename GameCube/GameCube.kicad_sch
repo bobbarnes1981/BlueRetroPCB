@@ -1710,7 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 46.99) (xy 135.89 50.8)
+			(xy 132.08 22.86) (xy 132.08 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1740,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 55.88) (xy 156.21 55.88)
+			(xy 147.32 31.75) (xy 152.4 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1760,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 60.96) (xy 154.94 60.96)
+			(xy 147.32 36.83) (xy 151.13 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1830,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 86.36) (xy 135.89 88.9)
+			(xy 132.08 62.23) (xy 132.08 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1910,7 +1910,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 66.04) (xy 120.65 66.04)
+			(xy 113.03 41.91) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1970,7 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 63.5) (xy 154.94 63.5)
+			(xy 147.32 39.37) (xy 151.13 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2179,7 +2179,7 @@
 		(uuid "65705606-ddd0-463b-9bc9-3c1136127520")
 	)
 	(label "IO2"
-		(at 116.84 66.04 180)
+		(at 113.03 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,7 +2189,7 @@
 		(uuid "6696d17b-a81c-458e-b09c-925b68b31610")
 	)
 	(label "IO19"
-		(at 154.94 81.28 0)
+		(at 151.13 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2249,7 +2249,7 @@
 		(uuid "a30dae5f-ea65-47eb-9d52-03f79dded570")
 	)
 	(label "IO4"
-		(at 154.94 60.96 0)
+		(at 151.13 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2259,7 +2259,7 @@
 		(uuid "e489b789-e8b3-4e5c-a8e9-75f063516ad0")
 	)
 	(label "IO5"
-		(at 154.94 63.5 0)
+		(at 151.13 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2693,7 +2693,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 156.21 55.88 270)
+		(at 152.4 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2702,7 +2702,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e2c2f23-b8b7-4170-b867-dbf36ce99a94")
 		(property "Reference" "#PWR03"
-			(at 152.4 55.88 0)
+			(at 148.59 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2711,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 160.02 55.8799 90)
+			(at 156.21 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 55.88 0)
+			(at 152.4 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 55.88 0)
+			(at 152.4 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 156.21 55.88 0)
+			(at 152.4 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3788,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-C3-DevKitM-1")
-		(at 135.89 68.58 0)
+		(at 132.08 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3797,7 +3797,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c0e0198-0de7-47bb-ac23-9c7c3a439f29")
 		(property "Reference" "U1"
-			(at 138.0841 48.26 0)
+			(at 134.2741 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +3806,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-DevKitM-1"
-			(at 138.0841 50.8 0)
+			(at 134.2741 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +3815,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-C3-DevKitM-1"
-			(at 135.89 93.98 0)
+			(at 132.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3824,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html"
-			(at 135.89 99.06 0)
+			(at 132.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3833,7 @@
 			)
 		)
 		(property "Description" "Development board featuring ESP32-C3-MINI-1 module"
-			(at 135.89 96.52 0)
+			(at 132.08 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4148,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 135.89 46.99 0)
+		(at 132.08 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4157,7 +4157,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7580584-e2f0-4e1f-a535-37b10d163b6e")
 		(property "Reference" "#PWR08"
-			(at 135.89 50.8 0)
+			(at 132.08 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +4166,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 135.89 41.91 0)
+			(at 132.08 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 46.99 0)
+			(at 132.08 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 46.99 0)
+			(at 132.08 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 46.99 0)
+			(at 132.08 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,7 +4487,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 88.9 0)
+		(at 132.08 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4496,7 +4496,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb6f8890-f1d0-455e-9941-e312af48de73")
 		(property "Reference" "#PWR016"
-			(at 135.89 95.25 0)
+			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4505,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 93.98 0)
+			(at 132.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 88.9 0)
+			(at 132.08 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 88.9 0)
+			(at 132.08 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 88.9 0)
+			(at 132.08 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
